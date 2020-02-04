@@ -19,6 +19,9 @@
     <engine name="cordova" version=">=6.4.0" />
     <engine name="cordova-ios" version=">=4.3.0" />
     
+    <!-- TODO: REMOVE? --> 
+    <dependency id="cordova-plugin-cocoapod-support"/>
+    
     <js-module name="AppCenter" src="www/AppCenter.js">
         <clobbers target="AppCenter" />
     </js-module>
@@ -55,6 +58,10 @@
 
         <header-file src="src/ios/AppCenterSharedPlugin.h" />
         <source-file src="src/ios/AppCenterSharedPlugin.m" />
+            
+        <pods-config ios-min-version="9.0" use-frameworks="true"/>
+        <pod name="AppCenter" version="2.5.3" />
+            
 <!--         <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
