@@ -10,8 +10,8 @@
     </description>
     <license>MIT</license>
     <keywords>microsoft, azure, app center, push</keywords>
-    <repo>https://github.com/Microsoft/appcenter-sdk-cordova</repo>
-    <issue>https://github.com/Microsoft/appcenter-sdk-cordova/issues</issue>
+    <repo>https://github.com/EvanWieland/appcenter-sdk-cordova</repo>
+    <issue>https://github.com/EvanWieland/appcenter-sdk-cordova/issues</issue>
 
 
     <!-- Required gradle functionality support -->

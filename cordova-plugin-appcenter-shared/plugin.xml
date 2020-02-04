@@ -10,8 +10,8 @@
     </description>
     <license>MIT</license>
     <keywords>microsoft, azure, app center, shared</keywords>
-    <repo>https://github.com/Microsoft/appcenter-sdk-cordova</repo>
-    <issue>https://github.com/Microsoft/appcenter-sdk-cordova/issues</issue>
+    <repo>https://github.com/EvanWieland/appcenter-sdk-cordova</repo>
+    <issue>https://github.com/EvanWieland/appcenter-sdk-cordova/issues</issue>
 
     <!-- Required gradle functionality support -->
     <engine name="cordova-android" version=">=4.1.0" />
@@ -63,7 +63,7 @@
                 <pod name="AppCenter" spec="~> 2.5.0" />
             </pods>
         </podspec>
-        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />
+<!--        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />-->
     </platform>
 </plugin>
 

@@ -10,8 +10,8 @@
     </description>
     <license>MIT</license>
     <keywords>microsoft, azure, app center, analytics</keywords>
-    <repo>https://github.com/Microsoft/appcenter-sdk-cordova</repo>
-    <issue>https://github.com/Microsoft/appcenter-sdk-cordova/issues</issue>
+    <repo>https://github.com/EvanWieland/appcenter-sdk-cordova</repo>
+    <issue>https://github.com/EvanWieland/appcenter-sdk-cordova/issues</issue>
 
     <!-- Required gradle functionality support -->
     <engine name="cordova-android" version=">=4.1.0" />
@@ -19,7 +19,8 @@
     <engine name="cordova" version=">=6.4.0" />
     <engine name="cordova-ios" version=">=4.3.0" />
 
-    <dependency id="cordova-plugin-appcenter-shared" version="0.5.1"/>
+    <!--    <dependency id="cordova-plugin-appcenter-shared" version="0.5.1"/>-->
+    <dependency id="cordova-plugin-appcenter-shared" url="https://github.com/EvanWieland/appcenter-sdk-cordova/cordova-plugin-appcenter-shared"/>
 
     <js-module name="Analytics" src="www/Analytics.js">
         <clobbers target="AppCenter.Analytics" />
@@ -65,9 +66,10 @@
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods use-frameworks="true">
+                <pod name="AppCenter" spec="~> 2.5.0" />
                 <pod name="AppCenter/Analytics" spec="~> 2.5.0" />
             </pods>
         </podspec>
-        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />
+<!--        <framework src="AppCenter" type="podspec" spec="~> 2.5.0" />-->
     </platform>
 </plugin>

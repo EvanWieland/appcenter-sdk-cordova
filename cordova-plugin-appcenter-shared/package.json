@@ -6,12 +6,12 @@
   "author": "Microsoft Corporation",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/appcenter-sdk-cordova.git"
+    "url": "git+https://github.com/EvanWieland/appcenter-sdk-cordova.git"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/appcenter-sdk-cordova/issues"
+    "url": "https://github.com/EvanWieland/appcenter-sdk-cordova/issues"
   },
-  "homepage": "https://github.com/Microsoft/appcenter-sdk-cordova/blob/master/README.md",
+  "homepage": "https://github.com/EvanWieland/appcenter-sdk-cordova/blob/master/README.md",
   "cordova": {
     "id": "cordova-plugin-appcenter-shared",
     "platforms": [
